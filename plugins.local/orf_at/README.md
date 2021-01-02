@@ -8,4 +8,4 @@ Some articles do have content. But they do not have a link to the full article p
 
 # Installation
 
-Place whole directory orf_at to plugins.local subdirectory on your tt-rss instance and enable plugin in tt-rss/Preferences/Plugins page.
+Place whole directory orf_at to plugins.local subdirectory on your tt-rss instance and enable the plugin in tt-rss/Preferences/Plugins page.
