@@ -1,5 +1,7 @@
 # orf_at
 
-This plugin tries to extract the meaningful information of www.orf.at RSS feed.
-In many cases there is no article content. So it will fetch article link and add this as content instead.
-Some content does not have a link to the full article page. So we extend the existing content with a link to article link.
+This plugin tries to extract the meaningful information of articles from www.orf.at RSS feed.
+
+Many if not most articles have no article content given. For these the content of article link will be fetched, formatted and added instead.
+
+Some articles do have content. But they do not have a link to the full article page. In this case the article link is injected to the existing content at the bottom.
