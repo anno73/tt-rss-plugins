@@ -8,5 +8,12 @@ Install to plugins.local folder of your tt-rss instance.
 
 [tt-rss-samples](https://git.tt-rss.org/fox/tt-rss-samples) by fox himself.
 
+Use the Feed Debug feature of tt-rss. (right click on feed->debug)
+
+Check the event log.
+
+Trigger updates manually by 
+`sudo -u www-data php update.php --force-rehash --debug-feed feed_number_from_feed_debug`
+
 # Link List
 https://tt-rss.org/myfeedsucks/
