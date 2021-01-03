@@ -4,9 +4,9 @@ Some plugins for tt-rss.
 Install to plugins.local folder of your tt-rss instance.
 
 # Plugin Development Ressources
-https://gist.github.com/Fmstrat/a5adc35633725d9369b50d8524b450ca
+[Unofficial documentation for hooks in TT-RSS ](https://gist.github.com/Fmstrat/a5adc35633725d9369b50d8524b450ca)
 
-https://git.tt-rss.org/fox/tt-rss-samples
+[tt-rss-samples](https://git.tt-rss.org/fox/tt-rss-samples) by fox himself.
 
 # Link List
 https://tt-rss.org/myfeedsucks/
