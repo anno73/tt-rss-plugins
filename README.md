@@ -28,4 +28,5 @@ sudo chown user target_file
 
 # Check Feed Validity
 https://validator.w3.org/feed/check.cgi
+
 https://tt-rss.org/myfeedsucks/
