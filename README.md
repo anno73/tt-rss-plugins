@@ -26,5 +26,6 @@ sudo mount --bind source_file target_file
 sudo chown user target_file
 ```
 
-# Link List
+# Check Feed Validity
+https://validator.w3.org/feed/check.cgi
 https://tt-rss.org/myfeedsucks/
