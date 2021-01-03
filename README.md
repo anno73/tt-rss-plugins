@@ -20,6 +20,9 @@ Trigger updates manually by
 `sudo -u www-data php update.php --force-rehash --debug-feed feed_number_from_feed_debug`
 
 Bindmount init.php from tt-rss installation to your home directory for direct access.
+`mount --bind source_file target_file
+chown user target_file
+`
 
 # Link List
 https://tt-rss.org/myfeedsucks/
