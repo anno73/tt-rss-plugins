@@ -21,10 +21,10 @@ Trigger updates manually by
 
 Bindmount init.php from tt-rss installation to your home directory for direct access.
 
-`
-mount --bind source_file target_file
-chown user target_file
-`
+```
+sudo mount --bind source_file target_file
+sudo chown user target_file
+```
 
 # Link List
 https://tt-rss.org/myfeedsucks/
