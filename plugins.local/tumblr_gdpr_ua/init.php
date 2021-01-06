@@ -88,9 +88,9 @@ class Tumblr_GDPR_UA extends Plugin
             $parser->init();
             if (!$parser->error()) {
                 $basic_info = array(
-              'title' => mb_substr($parser->get_title(), 0, 199),
-              'site_url' => mb_substr(rewrite_relative_url($fetch_url, $parser->get_link()), 0, 245)
-          );
+                    'title' => mb_substr($parser->get_title(), 0, 199),
+                    'site_url' => mb_substr(rewrite_relative_url($fetch_url, $parser->get_link()), 0, 245)
+                );
             }
         }
 
@@ -268,7 +268,7 @@ class Tumblr_GDPR_UA extends Plugin
 
         $ret = @curl_exec($ch);
 
-        // _debug("FETCH_CONTENTS_CH: curl_error: " . curl_error($ch));
+        // _debug("FETCH_CONTENTS_CH: curl_error: " . curl_error($ch));     // https://curl.se/libcurl/c/libcurl-errors.html
         // _debug("FETCH_CONTENTS_CH: ret[" . strlen($ret) . "]:\n" . $this->str2hex($ret));
         // _debug("FETCH_CONTENTS_CH: ret[" . strlen($ret) . "]:\n" . $this->hex_dump($ret));
         
