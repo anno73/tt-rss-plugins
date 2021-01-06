@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"cSpell.words": [
+			"BINARYTRANSFER",
+			"COOKIEJAR",
+			"CURLOPT",
+			"Googlebot",
+			"RETURNTRANSFER",
+			"USERPWD",
+			"domainlist",
+			"facebookexternalhit",
+			"followlocation",
+			"gzipped",
+			"ungzip"
+		]
+	}
+}
