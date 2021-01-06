@@ -33,5 +33,5 @@ for i in ${files[@]} ; do
 
 done
 
-chown -R anno .
+chown -R $USER .
 
